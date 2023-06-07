@@ -1,0 +1,33 @@
+package com.vj.programs;
+
+import java.util.Scanner;
+
+public class AlternateAddSum {
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the 'n': ");
+		int n = sc.nextInt();
+		System.out.println("enter array of elements: "+n);
+		int arr[]=new int[n];
+		for(int i=0;i<n;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter the 'opt': ");
+		int opt = sc.nextInt();
+		
+		if(opt==1) {
+			int sum=0;
+			for(int j=0;j<n;j++)
+			{
+				
+			}
+			System.out.println(sum);
+		}
+		
+	}
+
+}
+}
